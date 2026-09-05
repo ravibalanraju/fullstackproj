@@ -1,0 +1,38 @@
+# Secrets and environment configuration
+# Never commit these: they hold the Atlas password and OpenAI API key.
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Application logs
+*.log
+logs/
